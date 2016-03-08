@@ -102,7 +102,7 @@ $.widget("mobile.date",{
 			});
 		}
 	},
-	setOption:function( key, value ){
+	_setOption:function( key, value ){
 		this.baseWidget.datepicker( "option", key, value );
 	},
 	getDate: function(){
